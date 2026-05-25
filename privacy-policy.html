@@ -1,73 +1,103 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SleepScore プライバシーポリシー</title>
+  <title>ScanVolt AI Privacy Policy</title>
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      color: #1a1a1a;
-      line-height: 1.7;
-      background: #fafaf8;
-    }
-    h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
-    h2 { font-size: 16px; font-weight: 700; margin-top: 32px; margin-bottom: 8px; }
-    p, li { font-size: 14px; color: #3a3530; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 24px; color: #1c1c1e; line-height: 1.6; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    h2 { font-size: 20px; margin-top: 32px; border-bottom: 1px solid #e0e0e0; padding-bottom: 8px; }
+    .date { color: #636366; font-size: 14px; margin-bottom: 32px; }
     ul { padding-left: 20px; }
-    .updated { font-size: 13px; color: #9e9a92; margin-bottom: 40px; }
-    a { color: #4a90d9; }
+    li { margin-bottom: 6px; }
+    a { color: #007aff; }
+    .highlight { background: #f2f2f7; border-radius: 8px; padding: 16px; margin: 16px 0; }
   </style>
 </head>
 <body>
-  <h1>プライバシーポリシー</h1>
-  <p class="updated">最終更新日: 2026年3月27日</p>
 
-  <p>SleepScore（以下「本アプリ」）は、個人開発者 Egawa Koki（以下「開発者」）が提供する睡眠スコア測定アプリです。本アプリをご利用いただく前に、以下のプライバシーポリシーをよくお読みください。</p>
+<h1>ScanVolt AI Privacy Policy</h1>
+<p class="date">Effective Date: May 25, 2026 | Last Updated: May 25, 2026</p>
 
-  <h2>1. 収集する情報</h2>
-  <p>本アプリは以下の情報を収集・処理します。</p>
-  <ul>
-    <li><strong>加速度センサーデータ:</strong> 睡眠ステージの推定に使用します。生データはデバイス内のみで処理され、サーバーに送信されません。</li>
-    <li><strong>マイクデータ（任意）:</strong> いびき・呼吸音の検出に使用します。録音データはデバイス内のみで解析され、保存・送信されません。</li>
-    <li><strong>睡眠スコア・統計値:</strong> Claude AI（Anthropic）へのアドバイス生成リクエストに含まれます（個人識別情報は含まれません）。</li>
-    <li><strong>購入情報:</strong> RevenueCat を通じてサブスクリプション状態を管理します。RevenueCat のプライバシーポリシーは <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a> をご参照ください。</li>
-  </ul>
+<div class="highlight">
+  <strong>Short version:</strong> ScanVolt AI processes QR content on-device first. URL safety checks use anonymized hashes — we never log the full URLs you scan. No account is required. We do not sell your data.
+</div>
 
-  <h2>2. 情報の利用目的</h2>
-  <ul>
-    <li>睡眠スコアの算出・表示</li>
-    <li>Claude AI による個人向け睡眠アドバイスの生成</li>
-    <li>サブスクリプションの管理</li>
-    <li>アプリ機能の提供・改善</li>
-  </ul>
+<h2>1. Who We Are</h2>
+<p>ScanVolt AI ("we", "our", "us") is a mobile application developed and operated by Koki (contact: kouki_1203@icloud.com). ScanVolt AI is available on the Apple App Store.</p>
 
-  <h2>3. 第三者への提供</h2>
-  <p>開発者は、以下の場合を除き、お客様の情報を第三者に提供しません。</p>
-  <ul>
-    <li><strong>Anthropic（Claude API）:</strong> AIアドバイス生成のために睡眠統計データを送信します。識別情報は含まれません。Anthropic のプライバシーポリシーは <a href="https://www.anthropic.com/privacy" target="_blank">https://www.anthropic.com/privacy</a> をご確認ください。</li>
-    <li><strong>RevenueCat:</strong> 購入・サブスクリプション管理のために利用します。</li>
-    <li><strong>Apple HealthKit（任意）:</strong> ユーザーが許可した場合のみ、睡眠スコアを Apple ヘルスケアアプリに書き込みます。HealthKit データを広告・マーケティング目的に使用することはありません。</li>
-    <li><strong>法令に基づく開示:</strong> 法律上必要な場合。</li>
-  </ul>
+<h2>2. Information We Collect</h2>
 
-  <h2>4. データの保存</h2>
-  <p>睡眠記録・設定データはすべてデバイス内（MMKV ストレージ）に保存されます。クラウドへのバックアップは行われません。アプリを削除するとすべてのデータが消去されます。</p>
+<h3>2.1 Information You Provide</h3>
+<ul>
+  <li><strong>None required.</strong> ScanVolt AI does not require account registration. You can use all core scanning features without providing any personal information.</li>
+  <li>If you contact support, we collect your email address and the content of your message solely to respond to your inquiry.</li>
+</ul>
 
-  <h2>5. 子どものプライバシー</h2>
-  <p>本アプリは13歳未満のお子様を対象としていません。13歳未満の方の情報を意図的に収集することはありません。</p>
+<h3>2.2 Information Collected Automatically</h3>
+<ul>
+  <li><strong>Scan data (on-device only):</strong> QR code content is decoded on your device. The raw content is stored locally in your scan history and never uploaded to our servers.</li>
+  <li><strong>URL safety hashes:</strong> For AI safety analysis, we extract the destination URL from a QR code, compute a one-way SHA-256 hash of that URL, and send only the hash to our analysis service. The original URL is never transmitted.</li>
+  <li><strong>Usage analytics (anonymous):</strong> We collect non-identifiable crash reports and aggregate feature usage data (e.g., "X scans performed today") via on-device aggregation. This data cannot be linked to you.</li>
+  <li><strong>Purchase records:</strong> In-App Purchase transactions are processed entirely by Apple. We receive only a receipt token; no payment card data is stored by ScanVolt AI.</li>
+</ul>
 
-  <h2>6. セキュリティ</h2>
-  <p>開発者は、お客様の情報を保護するために合理的な技術的・組織的措置を講じています。ただし、インターネットを介した送信や電子的な保存方法は100%安全ではありません。</p>
+<h3>2.3 Information We Do NOT Collect</h3>
+<ul>
+  <li>Full URLs of QR codes you scan</li>
+  <li>Images or photos you use to scan QR codes</li>
+  <li>Your location</li>
+  <li>Your name, email, or any identifier (unless you contact support)</li>
+  <li>Advertising identifiers (IDFA)</li>
+</ul>
 
-  <h2>7. プライバシーポリシーの変更</h2>
-  <p>本ポリシーは予告なく変更される場合があります。変更後はアプリ内またはこのページにて通知します。</p>
+<h2>3. How We Use Your Information</h2>
+<ul>
+  <li><strong>AI Safety Analysis:</strong> Anonymized URL hashes are sent to our backend service, which queries the Anthropic Claude API to assess threat risk. The response (Safe / Caution / Danger + explanation) is returned to your device. Anthropic's privacy policy applies to this processing: <a href="https://www.anthropic.com/privacy">anthropic.com/privacy</a>.</li>
+  <li><strong>Service improvement:</strong> Aggregate, non-identifiable crash and usage data helps us fix bugs and improve the app.</li>
+  <li><strong>Support:</strong> Email addresses provided when contacting support are used only to respond to your request and are deleted after 90 days.</li>
+</ul>
 
-  <h2>8. お問い合わせ</h2>
-  <p>本プライバシーポリシーに関するご質問は、以下までお問い合わせください。</p>
-  <p>Email: <a href="mailto:support@sleepscore.app">support@sleepscore.app</a></p>
+<h2>4. Data Sharing</h2>
+<p>We do not sell, rent, or trade your personal data. We share data only in these limited circumstances:</p>
+<ul>
+  <li><strong>Anthropic (Claude API):</strong> Anonymized URL hashes for safety analysis only. See Anthropic's DPA and privacy policy for their obligations.</li>
+  <li><strong>Apple:</strong> Purchase transactions and crash symbolication handled by Apple's platform.</li>
+  <li><strong>Legal requirements:</strong> If required by law or to protect our legal rights, we may disclose information. We will notify you if legally permitted to do so.</li>
+</ul>
+
+<h2>5. Data Storage &amp; Retention</h2>
+<ul>
+  <li><strong>On-device:</strong> Scan history is stored on your device (and iCloud, if sync is enabled for Pro users) and is retained according to your plan (7 days free, 1 year Pro). You can delete your history at any time from the app.</li>
+  <li><strong>Our servers:</strong> We do not retain URL hashes after returning the safety analysis result. Response time is typically under 2 seconds; no log of the hash is written.</li>
+  <li><strong>iCloud:</strong> If you enable iCloud sync (Pro feature), your scan history is stored in your private iCloud container. Apple's iCloud privacy terms apply. We cannot access your iCloud data.</li>
+</ul>
+
+<h2>6. Your Rights</h2>
+<p>Since we collect minimal data and no account is required, most rights are exercised on-device:</p>
+<ul>
+  <li><strong>Access &amp; deletion:</strong> Clear your scan history in Settings → History → Clear All.</li>
+  <li><strong>Revoke camera access:</strong> iOS Settings → ScanVolt AI → Camera → Off.</li>
+  <li><strong>Support data:</strong> Email kouki_1203@icloud.com to request deletion of any support correspondence.</li>
+</ul>
+<p>If you are in the EU/EEA, you have additional rights under GDPR including the right to data portability and the right to lodge a complaint with your supervisory authority.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>ScanVolt AI is not directed at children under 13 (or under 16 in the EU). We do not knowingly collect personal data from children. If you believe a child has submitted information, contact us immediately at kouki_1203@icloud.com.</p>
+
+<h2>8. Security</h2>
+<p>Scan history is stored using iOS Data Protection (encrypted at rest). Network requests use TLS 1.3. URL hashes are computed locally before transmission and are not reversible to the original URL.</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this policy as ScanVolt AI evolves. Material changes will be announced in the App Store release notes and within the app. Continued use after the effective date constitutes acceptance.</p>
+
+<h2>10. Contact</h2>
+<p>
+  Koki — ScanVolt AI Developer<br>
+  Email: <a href="mailto:kouki_1203@icloud.com">kouki_1203@icloud.com</a><br>
+  GitHub: <a href="https://github.com/Koki-coder-crypto/LynQ_iOS">github.com/Koki-coder-crypto/LynQ_iOS</a>
+</p>
+
 </body>
 </html>
